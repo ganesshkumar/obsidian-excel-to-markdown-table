@@ -8,7 +8,7 @@ export default class ExcelToMarkdownTablePlugin extends Plugin {
 			name: 'Excel to Markdown',
 			hotkeys: [
 				{
-					modifiers: ["Ctrl", "Shift"],
+					modifiers: ["Mod", "Alt"],
 					key: "v"
 				}
 			],

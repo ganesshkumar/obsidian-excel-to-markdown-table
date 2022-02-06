@@ -8,14 +8,16 @@ An Obsidian plugin to paste Excel tables as Markdown tables in Obsidian editor.
 
 You can paste the copied Excel date from the clipboard by using either
 
-1. Hotkey - `Crtl/Cmd + Shift + V` or 
+1. Hotkey - `Crtl/Cmd + Alt + V` (reassign it from settings if needed) or 
 2. Command Palette: `Ctrl/Cmd + P` > `Excel to Markdown` command
 
 ![Obsidian Excel to Markdown Table](https://user-images.githubusercontent.com/2135089/151919147-8315155a-0972-4152-a8cc-70f835b6dece.gif)
+**Note**: The hotkeys are `Ctrl/Cmd + Alt + V`
+
 
 ## Installation
 
-### From Obsidian
+### From Obsidian (Yet to be approved to be available in the community plugins)
 
 1. Open `Settings` > `Third-party plugin`
 2. Make sure Safe mode is **off**
