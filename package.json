@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-excel-to-markdown-table",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"description": "An Obsidian plugin to paste Excel tables as Markdown tables in Obsidian editor.",
 	"main": "main.js",
 	"scripts": {

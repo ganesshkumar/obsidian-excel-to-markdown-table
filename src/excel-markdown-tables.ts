@@ -15,3 +15,20 @@ export function excelToMarkdown(rawData: string): string {
 
     return helper.addAlignmentSyntax(markdownRows, columnWidths, colAlignments).join(LINE_ENDING);
 }
+
+export function getExcelRows(rawData: string): string[][] {
+    let data = rawData.trim();
+    var intraCellNewlineReplacedData = helper.replaceIntraCellNewline(data)
+    return helper.splitIntoRowsAndColumns(intraCellNewlineReplacedData);
+}
+
+export function excelRowsToMarkdown(rows: string[][]): string {
+    var {columnWidths, colAlignments } = helper.getColumnWidthsAndAlignments(rows);
+    const markdownRows = helper.addMarkdownSyntax(rows, columnWidths);
+
+    return helper.addAlignmentSyntax(markdownRows, columnWidths, colAlignments).join(LINE_ENDING);
+}
+
+export function isExcelData(rows: string[][]): boolean {
+    return rows && rows[0] && rows[0].length > 1 ? true : false
+}
