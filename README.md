@@ -1,12 +1,13 @@
 # Obsidian Excel to Markdown Table
 
-[![Tag 0.1.0](https://img.shields.io/badge/tag-0.1.0-blue)](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table/releases/tag/0.1.0) 
+[![Tag 0.2.0](https://img.shields.io/badge/tag-0.2.0-blue)](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table/releases/tag/0.2.0) 
+[![MIT License](https://img.shields.io/github/license/ganesshkumar/obsidian-excel-to-markdown-table)](LICENSE)
 
-An Obsidian plugin to paste Excel tables as Markdown tables in Obsidian editor.
+An Obsidian plugin to paste data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc as Markdown tables in Obsidian editor.
 
 ## Demo
 
-You can paste the copied Excel data from the clipboard by using either
+You can paste the copied data in the clipboard by one of the following methods.
 
 | # | Name | Method | Notes |
 |---|------|--------|-------|
@@ -14,12 +15,11 @@ You can paste the copied Excel data from the clipboard by using either
 |2| Hotkey |`Crtl/Cmd + Alt + V` | will paste table with one column as well <br/> reassign the Hotkey from settings if needed |
 |3| Command Palette |`Ctrl/Cmd + P` > `Excel to Markdown` | will paste table with one column as well |
 
-![Obsidian Excel to Markdown Table](https://user-images.githubusercontent.com/2135089/151919147-8315155a-0972-4152-a8cc-70f835b6dece.gif)
-
+![Obsidian Excel to Markdown Table](https://user-images.githubusercontent.com/2135089/153027044-d1b91515-d5ea-4624-ace1-654c4ceccdc1.gif)
 
 ## Installation
 
-### From Obsidian (Yet to be approved to be available in the community plugins)
+### From Obsidian 
 
 1. Open `Settings` > `Third-party plugin`
 2. Make sure Safe mode is **off**
@@ -47,3 +47,8 @@ You can paste the copied Excel data from the clipboard by using either
  - [vscode-excel-to-markdown-table](https://github.com/csholmq/vscode-excel-to-markdown-table)
  - [copy-excel-paste-markdown](https://github.com/thisdavej/copy-excel-paste-markdown)
 
+---
+
+If you like my work, you could consider buying me a coffee. It is unnecessary, but appreciated 🙂
+
+<a href="https://www.buymeacoffee.com/ganesshkumar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>

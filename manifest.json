@@ -3,7 +3,7 @@
 	"name": "Excel to Markdown Table",
 	"version": "0.2.0",
 	"minAppVersion": "0.12.0",
-	"description": "An Obsidian plugin to paste Excel tables as Markdown tables in Obsidian editor.",
+	"description": "An Obsidian plugin to paste data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc as Markdown tables in Obsidian editor.",
 	"author": "Ganessh Kumar R P <rpganesshkumar@gmail.com>",
 	"authorUrl": "https://ganesshkumar.com",
 	"isDesktopOnly": false
