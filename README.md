@@ -1,13 +1,13 @@
 # Obsidian Excel to Markdown Table
 
-[![Tag 0.2.0](https://img.shields.io/badge/tag-0.2.0-blue)](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table/releases/tag/0.2.0) 
+[![Tag 0.2.1](https://img.shields.io/badge/tag-0.2.1-blue)](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table/releases/tag/0.2.1) 
 [![MIT License](https://img.shields.io/github/license/ganesshkumar/obsidian-excel-to-markdown-table)](LICENSE)
 
-An Obsidian plugin to paste Excel tables as Markdown tables in Obsidian editor.
+An Obsidian plugin to paste data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc as Markdown tables in Obsidian editor.
 
 ## Demo
 
-You can paste the copied Excel data from the clipboard by one of the following methods.
+You can paste the copied data in the clipboard by one of the following methods.
 
 | # | Name | Method | Notes |
 |---|------|--------|-------|
