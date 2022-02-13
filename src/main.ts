@@ -2,8 +2,14 @@ import { Editor, MarkdownView, Plugin } from 'obsidian';
 import { excelToMarkdown, getExcelRows, isExcelData, excelRowsToMarkdown } from './excel-markdown-tables';
 
 export default class ExcelToMarkdownTablePlugin extends Plugin {
-	pasteHandler = (evt: ClipboardEvent, editor: Editor) => {
+	pasteHandler = (evt: ClipboardEvent, editor: Editor, markdownview: MarkdownView) => {
 		if (evt.clipboardData === null) {
+			return;
+		}
+
+		// Check for `Shift + Mod + V` triggered event.
+		// Do not handle `Shift + Mod + V` events.
+		if (evt.clipboardData.types.length === 1 && evt.clipboardData.types[0] === 'text/plain') {	
 			return;
 		}
 
