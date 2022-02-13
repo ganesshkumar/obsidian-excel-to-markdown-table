@@ -7,6 +7,12 @@ export default class ExcelToMarkdownTablePlugin extends Plugin {
 			return;
 		}
 
+		// Check for `Shift + Mod + V` triggered event.
+		// Do not handle `Shift + Mod + V` events.
+		if (evt.clipboardData.types.length === 1 && evt.clipboardData.types[0] === 'text/plain') {	
+			return;
+		}
+
 		const rawData = evt.clipboardData.getData("text");
 		const rows = getExcelRows(rawData);
 		
