@@ -1,8 +1,9 @@
 # Obsidian Excel to Markdown Table
 
+![Excel to Markdown Banner](https://user-images.githubusercontent.com/2135089/153448883-7ff1b12a-aaca-4eb5-b1e3-4bc227481d04.gif)
+
 [![Tag 0.2.2](https://img.shields.io/badge/tag-0.2.2-blue)](https://github.com/ganesshkumar/obsidian-excel-to-markdown-table/releases/tag/0.2.2) 
 [![MIT License](https://img.shields.io/github/license/ganesshkumar/obsidian-excel-to-markdown-table)](LICENSE)
-![Excel to Markdown Banner](https://user-images.githubusercontent.com/2135089/153448883-7ff1b12a-aaca-4eb5-b1e3-4bc227481d04.gif)
 ![Maintainability](https://img.shields.io/codeclimate/maintainability-percentage/ganesshkumar/obsidian-excel-to-markdown-table)
 ![Code Issues](https://img.shields.io/codeclimate/issues/ganesshkumar/obsidian-excel-to-markdown-table?label=code%3Aissues)
 ![Tech Debt](https://img.shields.io/codeclimate/tech-debt/ganesshkumar/obsidian-excel-to-markdown-table)
