@@ -30,5 +30,14 @@ export function excelRowsToMarkdown(rows: string[][]): string {
 }
 
 export function isExcelData(rows: string[][]): boolean {
-    return rows && rows[0] && rows[0].length > 1 ? true : false
+    if (!(rows && rows[0] && rows[0].length > 1)) {
+        return false;
+    }
+    // If we have multiple entries per row, each if this is the case for all rows.
+    const width: number = rows[0].length;
+    for (var row of rows) {
+        console.log("lenght: " + row.length);
+        if (row.length != width) { return false; }
+    }
+    return true;
 }
